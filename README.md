@@ -29,14 +29,14 @@ This project involves the implementation of Monte Carlo simulations to study the
 ### Metrics
 
 - **Total Energy**: Calculated as
-  $
+  $$
   E=\sum_{<m, n>} \delta_{m, n} J_{A(m), A(n)}
-  $
+  $$
   where $\delta_{m, n}=1$ for non-covalently bonded nearest neighbors.
 - **Mean-Square Size**: 
-  $
+  $$
   \Delta \equiv \langle \left| \vec{r}_i - \vec{r}_{cm} \right|^2 \rangle
-  $
+  $$
   where $\vec{r}_i$ is the position of the $i$-th amino acid and $\vec{r}_{cm}$ is the center of mass.
 - **End-to-End Distance**: Distance between the first and last amino acid in the chain.
 
